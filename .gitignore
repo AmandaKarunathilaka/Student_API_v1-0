@@ -1,0 +1,28 @@
+# node modules
+node_modules/
+
+#enivonment variables
+.env
+
+#logs
+logs
+*.log
+npm-debug.log*
+
+#OS generated files
+.DS_Store
+Thumbs.db
+
+#IDE files
+.idea/
+.vscode/
+
+#temporary files
+tmp/
+temp/
+
+#coverage reports
+coverage/
+
+#package lock
+package-lock.json
