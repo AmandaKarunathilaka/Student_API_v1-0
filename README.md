@@ -65,74 +65,37 @@ In this project, there are several middleware used for handling requests before 
 ##### 📂**Project Structure**
 
 
-
-
-
 STUDENT-API/
-
 │
-
-├── node\_modules/                # Installed project dependencies
-
+├── node_modules/                # Installed dependencies (ignored in Git)
 │
-
 ├── src/
-
 │   ├── config/
-
 │   │   └── db.js               # MongoDB connection setup
-
 │   │
-
 │   ├── controllers/
-
-│   │   └── studentController.js  # Handles CRUD logic for students
-
+│   │   └── studentController.js  # Handles CRUD operations
 │   │
-
 │   ├── middleware/
-
-│   │   ├── errorHandler.js     # Global error handling middleware
-
+│   │   ├── errorHandler.js     # Global error handling
 │   │   └── validate.js         # Request validation middleware
-
 │   │
-
 │   ├── models/
-
-│   │   └── studentModel.js     # Mongoose schema \& model
-
+│   │   └── studentModel.js     # Mongoose schema/model
 │   │
-
 │   ├── routes/
-
-│   │   └── studentRoutes.js    # API route definitions
-
+│   │   └── studentRoutes.js    # API routes
 │   │
-
 │   ├── services/               # Optional business logic layer
-
 │   │
-
-│   └── app.js                  # Express app configuration (middleware, routes)
-
+│   └── app.js                  # Express app setup
 │
-
-├── .env                        # Environment variables (DB URI, PORT, etc.)
-
-├── package.json                # Project metadata and dependencies
-
+├── .env                        # Environment variables (NOT uploaded)
+├── .gitignore                  # Git ignore rules
+├── package.json                # Project dependencies
 ├── package-lock.json           # Dependency lock file
-
 ├── README.md                   # Project documentation
-
-├── server.js                   # Entry point (starts the server)
-
-
-
-
-
-
+├── server.js                   # Entry point (runs the server)
 
 ##### **🧪API Endpoints**
 
