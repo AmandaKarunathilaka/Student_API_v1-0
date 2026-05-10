@@ -64,7 +64,7 @@ In this project, there are several middleware used for handling requests before 
 
 ##### 📂**Project Structure**
 
-
+```
 STUDENT-API/
 │
 ├── node_modules/                # Installed dependencies (ignored in Git)
@@ -96,7 +96,7 @@ STUDENT-API/
 ├── package-lock.json           # Dependency lock file
 ├── README.md                   # Project documentation
 ├── server.js                   # Entry point (runs the server)
-
+```
 ##### **🧪API Endpoints**
 
 
